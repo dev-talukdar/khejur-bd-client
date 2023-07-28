@@ -3,6 +3,7 @@ import { Pagination } from 'swiper/modules';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
+import { Link } from 'react-router-dom';
 
 
 
@@ -18,15 +19,56 @@ const Category = () => {
             modules={[Pagination]}
             className="mySwiper"
         >
-            <SwiperSlide>Slide 1</SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
-            <SwiperSlide>Slide 5</SwiperSlide>
-            <SwiperSlide>Slide 6</SwiperSlide>
-            <SwiperSlide>Slide 7</SwiperSlide>
-            <SwiperSlide>Slide 8</SwiperSlide>
-            <SwiperSlide>Slide 9</SwiperSlide>
+            <SwiperSlide><img src="https://khejurbd.net/images/category/ajwa%20dates.webp" alt="" />
+            <div className='absolute flex transform translate-y-1/2 left-5 right-5 bottom-80'>
+            <Link to={'/'}> <button className='btn btn-sm btn-neutral btn-outline'>See Details</button></Link>
+            </div>
+            </SwiperSlide>
+            <SwiperSlide><img src="https://khejurbd.net/images/category/almonds.webp" alt="" />
+            <div className='absolute flex transform translate-y-1/2 left-5 right-5 bottom-80'>
+            <Link to={'/'}> <button className='btn btn-sm btn-neutral btn-outline'>See Details</button></Link>
+            </div>
+            </SwiperSlide>
+            <SwiperSlide><img src="https://khejurbd.net/images/category/chia%20seed.webp" alt="" />
+            <div className='absolute flex transform translate-y-1/2 left-5 right-5 bottom-80'>
+            <Link to={'/'}> <button className='btn btn-sm btn-neutral btn-outline'>See Details</button></Link>
+            </div>
+            </SwiperSlide>
+            <SwiperSlide><img src="https://khejurbd.net/images/category/amber%20dates.webp" alt="" />
+            <div className='absolute flex transform translate-y-1/2 left-5 right-5 bottom-80'>
+            <Link to={'/'}> <button className='btn btn-sm btn-neutral btn-outline'>See Details</button></Link>
+            </div>
+            </SwiperSlide>
+            <SwiperSlide><img src="https://khejurbd.net/images/category/cashews.webp" alt="" />
+            <div className='absolute flex transform translate-y-1/2 left-5 right-5 bottom-80'>
+            <Link to={'/'}> <button className='btn btn-sm btn-neutral btn-outline'>See Details</button></Link>
+            </div>
+            </SwiperSlide>
+            <SwiperSlide><img src="https://khejurbd.net/images/category/pumpkin%20seed.webp" alt="" />
+            <div className='absolute flex transform translate-y-1/2 left-5 right-5 bottom-80'>
+            <Link to={'/'}> <button className='btn btn-sm btn-neutral btn-outline'>See Details</button></Link>
+            </div>
+            </SwiperSlide>
+            <SwiperSlide><img src="https://khejurbd.net/images/category/mabroom%20dates.webp" alt="" />
+            <div className='absolute flex transform translate-y-1/2 left-5 right-5 bottom-80'>
+            <Link to={'/'}> <button className='btn btn-sm btn-neutral btn-outline'>See Details</button></Link>
+            </div>
+            </SwiperSlide>
+            <SwiperSlide><img src="https://khejurbd.net/images/category/medjool%20dates.webp" alt="" />
+            <div className='absolute flex transform translate-y-1/2 left-5 right-5 bottom-80'>
+            <Link to={'/'}> <button className='btn btn-sm btn-neutral btn-outline'>See Details</button></Link>
+            </div>
+            </SwiperSlide>
+            <SwiperSlide><img src="https://khejurbd.net/images/category/walnut.webp" alt="" />
+            <div className='absolute flex transform translate-y-1/2 left-5 right-5 bottom-80'>
+            <Link to={'/'}> <button className='btn btn-sm btn-neutral btn-outline'>See Details</button></Link>
+            </div>
+            </SwiperSlide>
+            <SwiperSlide><img src="https://khejurbd.net/images/category/safawi%20dates.webp" alt="" />
+            <div className='absolute flex transform translate-y-1/2 left-5 right-5 bottom-80'>
+            <Link to={'/'}> <button className='btn btn-sm btn-neutral btn-outline'>See Details</button></Link>
+            </div>
+            </SwiperSlide>
         </Swiper>
     );
 };
