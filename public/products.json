@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "productName": "Ajwa Dates",
+      "productImageURL": "https://khejurbd.net/images/category/ajwa%20dates.webp",
+      "availablePackage": "3kg, 5kg",
+      "seeDetailsButton": "https://example.com/products/ajwa-dates"
+    },
+    {
+      "id": 2,
+      "productName": "Almonds",
+      "productImageURL": "https://khejurbd.net/images/category/almonds.webp",
+      "availablePackage": "0.5k, 1kg",
+      "seeDetailsButton": "https://example.com/products/amber-dates"
+    },
+    {
+      "id": 3,
+      "productName": "Cashews",
+      "productImageURL": "https://example.com/images/cashews.jpg",
+      "availablePackage": "250g, 500g, 1kg",
+      "seeDetailsButton": "https://example.com/products/cashews"
+    },
+    {
+      "id": 4,
+      "productName": "Almonds",
+      "productImageURL": "https://example.com/images/almonds.jpg",
+      "availablePackage": "250g, 500g, 1kg",
+      "seeDetailsButton": "https://example.com/products/almonds"
+    },
+    {
+      "id": 5,
+      "productName": "Pumpkin Seed",
+      "productImageURL": "https://example.com/images/pumpkin-seed.jpg",
+      "availablePackage": "250g, 500g, 1kg",
+      "seeDetailsButton": "https://example.com/products/pumpkin-seed"
+    }
+  ]
+  
