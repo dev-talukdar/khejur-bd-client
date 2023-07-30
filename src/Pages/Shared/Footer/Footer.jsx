@@ -14,9 +14,9 @@ const Footer = () => {
                         Khejur BD<br />Bringing the premium khejur to  <br /> Every Corner of Bangladesh since 2020.
                         </p>
                         <div className="flex mt-8 space-x-6 text-gray-600">
-                        <Link className="text-xl scale-100 hover:scale-110 hover:ease-in duration-500 hover:text-orange-400 ..."><BsFacebook></BsFacebook></Link>
-                        <Link className="text-xl scale-100 hover:scale-110 hover:ease-in duration-500 hover:text-orange-400 ..."><BsInstagram></BsInstagram></Link>
-                        <Link className="text-xl scale-100 hover:scale-110 hover:ease-in duration-500 hover:text-orange-400 ..."><BsYoutube></BsYoutube></Link>
+                        <Link className="text-xl scale-100 hover:scale-110 hover:ease-in duration-500 hover:text-yellow-600 ..."><BsFacebook></BsFacebook></Link>
+                        <Link className="text-xl scale-100 hover:scale-110 hover:ease-in duration-500 hover:text-yellow-600 ..."><BsInstagram></BsInstagram></Link>
+                        <Link className="text-xl scale-100 hover:scale-110 hover:ease-in duration-500 hover:text-yellow-600 ..."><BsYoutube></BsYoutube></Link>
                         </div>
                     </div>
                     <div className="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4">
@@ -25,11 +25,11 @@ const Footer = () => {
                                Dates
                             </p>
                             <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                                <Link className="hover:text-orange-400 font-semibold" > Ajwa </Link>
-                                <Link className="hover:text-orange-400 font-semibold" > Amber </Link>
-                                <Link className="hover:text-orange-400 font-semibold" > Mariyam </Link>
-                                <Link className="hover:text-orange-400 font-semibold" > Medjool </Link>
-                                <Link className="hover:text-orange-400 font-semibold" > Safawi Kalmi </Link>
+                                <Link className="hover:text-yellow-600 font-semibold" > Ajwa </Link>
+                                <Link className="hover:text-yellow-600 font-semibold" > Amber </Link>
+                                <Link className="hover:text-yellow-600 font-semibold" > Mariyam </Link>
+                                <Link className="hover:text-yellow-600 font-semibold" > Medjool </Link>
+                                <Link className="hover:text-yellow-600 font-semibold" > Safawi Kalmi </Link>
                             </nav>
                         </div>
                         <div>
@@ -37,11 +37,11 @@ const Footer = () => {
                                 Peanuts
                             </p>
                             <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                                <Link className="hover:text-orange-400 font-semibold" > Almonds </Link>
-                                <Link className="hover:text-orange-400 font-semibold" > Cashews </Link>
-                                <Link className="hover:text-orange-400 font-semibold" > Pistachios </Link>
-                                <Link className="hover:text-orange-400 font-semibold" > Thai Peanuts </Link>
-                                <Link className="hover:text-orange-400 font-semibold" > Walnuts </Link>
+                                <Link className="hover:text-yellow-600 font-semibold" > Almonds </Link>
+                                <Link className="hover:text-yellow-600 font-semibold" > Cashews </Link>
+                                <Link className="hover:text-yellow-600 font-semibold" > Pistachios </Link>
+                                <Link className="hover:text-yellow-600 font-semibold" > Thai Peanuts </Link>
+                                <Link className="hover:text-yellow-600 font-semibold" > Walnuts </Link>
                             </nav>
                         </div>
                         <div>
@@ -49,9 +49,9 @@ const Footer = () => {
                                 Seeds
                             </p>
                             <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                                <Link className="hover:text-orange-400 font-semibold" > Chia Seeds </Link>
-                                <Link className="hover:text-orange-400 font-semibold" > Pumpkin Seeds </Link>
-                                <Link className="hover:text-orange-400 font-semibold" > Sunflower Seeds </Link>
+                                <Link className="hover:text-yellow-600 font-semibold" > Chia Seeds </Link>
+                                <Link className="hover:text-yellow-600 font-semibold" > Pumpkin Seeds </Link>
+                                <Link className="hover:text-yellow-600 font-semibold" > Sunflower Seeds </Link>
                             </nav>
                         </div>
                         <div>
@@ -59,10 +59,10 @@ const Footer = () => {
                                 Legal
                             </p>
                             <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                                <Link className="hover:text-orange-400 font-semibold" > Contact Us </Link>
-                                <Link className="hover:text-orange-400 font-semibold" > Store Location </Link>
-                                <Link className="hover:text-orange-400 font-semibold" > Privacy Policy </Link>
-                                <Link className="hover:text-orange-400 font-semibold" > Returns Policy </Link>
+                                <Link className="hover:text-yellow-600 font-semibold" > Contact Us </Link>
+                                <Link className="hover:text-yellow-600 font-semibold" > Store Location </Link>
+                                <Link className="hover:text-yellow-600 font-semibold" > Privacy Policy </Link>
+                                <Link className="hover:text-yellow-600 font-semibold" > Returns Policy </Link>
                             </nav>
                         </div>
                     </div>

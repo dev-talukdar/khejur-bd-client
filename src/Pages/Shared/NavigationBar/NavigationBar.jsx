@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 const NavigationBar = () => {
     const navOptions = <>
-        <li className="font-semibold scale-100  hover:text-orange-400 ..."><Link>Dates</Link></li>         
-        <li><Link className="font-semibold scale-100  hover:text-orange-400 ...">Peanuts</Link></li>
-        <li><Link className="font-semibold scale-100  hover:text-orange-400 ...">Seeds</Link></li>
+        <li className="font-semibold scale-100  hover:text-yellow-600 ..."><Link>Dates</Link></li>         
+        <li><Link className="font-semibold scale-100  hover:text-yellow-600 ...">Peanuts</Link></li>
+        <li><Link className="font-semibold scale-100  hover:text-yellow-600 ...">Seeds</Link></li>
     </>
     return (
         <>

@@ -3,11 +3,13 @@
  const ProductItem = ({item}) => {
     const {name, image, packageSize, price} = item;
     return (
-        <div>
-            <img src={image} alt="" />
-            <h3>{name}</h3>
+        <div className="flex space-x-3 ">
+            <img style={{borderRadius: '50px 200px 200px 200px'}} className="w-[120px]" src={image} alt="" />
+            <div>
+            <h3 className="uppercase">{name} ----</h3>
             <h3>{packageSize}</h3>
-            <h3>{price}</h3>
+            </div>
+            <h3 ><span className="text-xl font-bold">৳</span> {price}</h3>
             
         </div>
     );

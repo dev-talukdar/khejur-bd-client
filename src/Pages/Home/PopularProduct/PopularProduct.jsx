@@ -16,13 +16,13 @@ const PopularProduct = () => {
     }, [])
 
     return (
-        <section>
+        <section className="">
             <SectionTitle
             subHeading={'Popular items'}
             heading={'From Our Shop'}
             ></SectionTitle>
 
-            <div>
+            <div className="grid md:grid-cols-2 gap-4">
                 {
                     products.map(item => <ProductItem
                     key={item._id}
@@ -30,6 +30,7 @@ const PopularProduct = () => {
                     ></ProductItem>)
                 }
             </div>
+            <hr className="border-1 border-yellow-600 cursor-pointer hover:border-red-800 duration-500 mt-8" />
             
         </section>
     );
