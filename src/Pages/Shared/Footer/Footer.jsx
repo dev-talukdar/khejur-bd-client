@@ -4,6 +4,7 @@ import { BsInstagram, BsFacebook, BsYoutube } from 'react-icons/bs';
 
 const Footer = () => {
     return (
+        
          
         <footer className="bg-gradient-to-r from-rose-50 via-rose-100 to-rose-50">
             <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">

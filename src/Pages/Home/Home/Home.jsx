@@ -2,6 +2,7 @@
 import Category from "../Category/Category.jsx"; 
 import Featured from "../Featured/Featured.jsx";
 import PopularProduct from "../PopularProduct/PopularProduct.jsx";
+import Testimonials from "../Testimonials/Testimonials.jsx";
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
              <Category></Category> 
              <PopularProduct></PopularProduct>
              <Featured></Featured>
+             <Testimonials></Testimonials>
         </div>
     );
 };

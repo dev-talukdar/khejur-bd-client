@@ -4,7 +4,7 @@
     const {name, image, packageSize, price} = item;
     return (
         <div className="flex space-x-3 ">
-            <img style={{borderRadius: '50px 200px 200px 200px'}} className="w-[120px]" src={image} alt="" />
+            <img style={{borderRadius: '50px 200px 200px 200px'}} className=" w-[120px] shadow-lg ..." src={image} alt="" />
             <div>
             <h3 className="uppercase">{name} ----</h3>
             <h3>{packageSize}</h3>

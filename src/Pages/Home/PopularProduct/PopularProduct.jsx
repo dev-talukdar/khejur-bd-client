@@ -30,7 +30,7 @@ const PopularProduct = () => {
                     ></ProductItem>)
                 }
             </div>
-            <hr className="border-1 border-yellow-600 cursor-pointer hover:border-red-800 duration-500 mt-8" />
+           
             
         </section>
     );
