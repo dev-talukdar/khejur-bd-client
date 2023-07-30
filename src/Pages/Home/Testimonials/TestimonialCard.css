@@ -18,13 +18,13 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
-    color: #302f2f;
+    color: #ca8a04;
     transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
   }
   
   .content .heading {
     font-weight: 400;
-    font-size: 32px;
+    font-size: 24px;
   }
   
   .content .para {
