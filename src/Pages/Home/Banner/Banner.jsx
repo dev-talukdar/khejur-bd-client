@@ -29,21 +29,28 @@ export default function SliderControlsInside() {
         {/*    <!-- Slides --> */}
         <div className="overflow-hidden" data-glide-el="track">
           <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
+            
             <li>  
               <img
-                src="https://khejurbd.net/images/heroDates.webp"
+                src="https://www.khejurbd.net/images/cover-img/datesNwalnut.webp"
+                className="w-full max-w-full max-h-full m-auto"
+              />
+            </li>
+            <li>  
+              <img
+                src="https://www.khejurbd.net/images/cover-img/datesCover.webp"
                 className="w-full max-w-full max-h-full m-auto"
               />
             </li>
             <li>
               <img
-                src="https://khejurbd.net/images/datesHero.webp"
+                src="https://www.khejurbd.net/images/cover-img/nutsCover.webp"
                 className="w-full max-w-full max-h-full m-auto"
               />
             </li>
             <li>
               <img
-                src="https://khejurbd.net/images/datesHero.webp"
+                src="https://www.khejurbd.net/images/cover-img/seedsCover.webp"
                 className="w-full max-w-full max-h-full m-auto"
               />
             </li> 
