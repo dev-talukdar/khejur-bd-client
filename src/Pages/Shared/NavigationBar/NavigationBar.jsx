@@ -3,9 +3,10 @@ import { Link } from "react-router-dom";
 
 const NavigationBar = () => {
     const navOptions = <>
-        <li className="font-semibold scale-100  hover:text-yellow-600 ..."><Link>Dates</Link></li>         
-        <li><Link className="font-semibold scale-100  hover:text-yellow-600 ...">Peanuts</Link></li>
-        <li><Link className="font-semibold scale-100  hover:text-yellow-600 ...">Seeds</Link></li>
+        <li><Link to="/" className="font-semibold scale-100 uppercase  hover:text-yellow-600 ...">Home</Link></li>         
+        <li><Link to="/products" className="font-semibold scale-100 uppercase  hover:text-yellow-600 ...">Products</Link></li>         
+        <li><Link to="/shop" className="font-semibold scale-100 uppercase hover:text-yellow-600 ...">Shop</Link></li>
+        <li><Link to="/about-us" className="font-semibold scale-100 uppercase hover:text-yellow-600 ...">About Us</Link></li>
     </>
     return (
         <>
