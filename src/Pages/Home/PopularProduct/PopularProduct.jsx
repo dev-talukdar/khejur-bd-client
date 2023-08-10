@@ -1,19 +1,14 @@
-import { useEffect, useState } from "react";
+ 
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";  
+import useProduct from "../../../hooks/useProduct";
 import ProductItem from "../../Shared/productItem/productItem";
 
  
 
 const PopularProduct = () => {
-    const [products, setProducts] = useState([]);
-
-    useEffect(() => {
-        fetch('products.json')
-        .then(res => res.json())
-        .then(data => {
-            const popularItems = data.filter( item => item.category === "popular");
-            setProducts(popularItems)})
-    }, [])
+    const [products] = useProduct()
+    const popularItems = products.filter(product => product.category === 'popular')
+     
 
     return (
         <section className="">
@@ -24,12 +19,14 @@ const PopularProduct = () => {
 
             <div className="grid md:grid-cols-2 gap-4">
                 {
-                    products.map(item => <ProductItem
+                    popularItems.map(item => <ProductItem
                     key={item._id}
                     item={item}
                     ></ProductItem>)
                 }
             </div>
+
+            <button className="btn btn-outline border-0 border-b-4 mt-4">View Product</button>
            
             
         </section>
