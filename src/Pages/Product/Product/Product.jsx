@@ -32,14 +32,14 @@ const Product = () => {
             <ProductCategory
                 items={peanuts}
                 title='peanuts'
-                img={'https://www.khejurbd.net/images/cover-img/datesNwalnut.webp'}
+                img={'https://www.khejurbd.net/images/cover-img/nutsCover.webp'}
             ></ProductCategory>
 
             {/* seeds items  */}
             <ProductCategory
                 items={seeds}
                 title='seeds'
-                img={'https://www.khejurbd.net/images/cover-img/datesNwalnut.webp'}
+                img={'https://www.khejurbd.net/images/cover-img/seedsCover.webp'}
             ></ProductCategory>
 
 
