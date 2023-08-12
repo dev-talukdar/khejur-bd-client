@@ -43,6 +43,6 @@ abbr {
    }
    
   abbr:active:before {
-    background: #3a0ca3;
+    background: #b16d3a;
     transition: background 0s;
    }
