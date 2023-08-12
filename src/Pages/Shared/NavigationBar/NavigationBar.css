@@ -1,5 +1,5 @@
 abbr {
-    --color: #ca8a04;
+    --color: #e07626;
     font-family: inherit;
     display: inline-block;
     text-align: center;
@@ -44,6 +44,6 @@ abbr {
    }
    
    abbr:active:before {
-    background: #ca8a04;
+    background: #e07626;
     transition: background 0s;
    }
