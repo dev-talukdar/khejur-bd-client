@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
 import Cover from "../../Shared/Cover/Cover";
 import ProductItem from "../../Shared/productItem/productItem";
+import './ProductCategory.css'
 
 
-const ProductCategory = ({items, title, img}) => {
+const ProductCategory = ({ items, title, img }) => {
     return (
         <div className="pt-8">
             {title && <Cover img={img} title={title}></Cover>}
@@ -14,6 +16,13 @@ const ProductCategory = ({items, title, img}) => {
                     ></ProductItem>)
                 }
             </div>
+
+
+            <Link to={`/shop/${title}`}>
+                <button className="flex justify-center items-center mt-10 mb-10 mx-auto">
+                    <span>ORDER NOW</span>
+                </button>
+            </Link>
 
         </div>
     );

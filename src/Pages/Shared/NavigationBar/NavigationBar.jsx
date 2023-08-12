@@ -5,7 +5,7 @@ const NavigationBar = () => {
     const navOptions = <>
         <li><Link to="/" className="font-semibold scale-100 uppercase  hover:text-yellow-600 ...">Home</Link></li>         
         <li><Link to="/products" className="font-semibold scale-100 uppercase  hover:text-yellow-600 ...">Products</Link></li>         
-        <li><Link to="/shop" className="font-semibold scale-100 uppercase hover:text-yellow-600 ...">Shop</Link></li>
+        <li><Link to="/shop/dates" className="font-semibold scale-100 uppercase hover:text-yellow-600 ...">Shop</Link></li>
         <li><Link to="/about-us" className="font-semibold scale-100 uppercase hover:text-yellow-600 ...">About Us</Link></li>
     </>
     return (

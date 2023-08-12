@@ -15,7 +15,7 @@ const Product = () => {
     return (
         <div>
             <Helmet>
-                <title>Home | Khejur BD</title>
+                <title>Products | Khejur BD</title>
             </Helmet>
             {/* main cover  */}
             <Cover img={'https://www.khejurbd.net/images/cover-img/datesNwalnut.webp'} title="Our Products"></Cover>
@@ -26,7 +26,11 @@ const Product = () => {
             ></SectionTitle>
 
             {/* dates items  */}
-            <ProductCategory items={dates}></ProductCategory>
+            <ProductCategory
+                items={dates}
+                title='dates'
+                img={'https://www.khejurbd.net/images/cover-img/datesCover.webp'}
+            ></ProductCategory>
 
             {/* peanuts item  */}
             <ProductCategory
@@ -43,7 +47,7 @@ const Product = () => {
             ></ProductCategory>
 
 
-        </div>
+        </div >
     );
 };
 

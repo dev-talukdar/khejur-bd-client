@@ -1,24 +1,24 @@
 [
   {
-      "_id": "642c155b2c4774f05c36eeaa",
+      "_id": "1",
       "name": "Ajwa Dates",
       "packageSize": "3 Kg A (Standard Quality) ",
       "image": "https://www.khejurbd.net/images/allProduct/ajwa%20dates.webp",
       "category": "dates",
-      "price": "3600",
+      "price": 3600,
       "stock": "available"
   },
   {
-    "_id": "642c155b2c4774f05c36eeas",
+    "_id": "2",
     "name": "Ajwa Dates",
     "packageSize": "5 Kg  A (Premium Quality)",
     "image": "https://www.khejurbd.net/images/allProduct/ajwa%20dates.webp",
     "category": "dates",
-    "price": "7000",
+    "price": 7000,
     "stock": "available"
 },
   {
-      "_id": "642c155b2c4774f05c36eeb9",
+      "_id": "3",
       "name": "Amber Dates",
       "packageSize": "5 Kg  A (Premium Quality)",
       "image": "https://www.khejurbd.net/images/allProduct/amber%20dates.webp",
@@ -27,7 +27,7 @@
       "stock": "available"
   },
   {
-      "_id": "642c155b2c4774f05c36ee7c",
+      "_id": "4",
       "name": "Mariyam Dates",
       "packageSize": "5 Kg A (Premium Quality)",
       "image": "https://www.khejurbd.net/images/allProduct/mabroom%20dates.webp",
@@ -36,7 +36,7 @@
       "stock": "available"
   },
   {
-      "_id": "642c155b2c4774f05c36ee88",
+      "_id": "5",
       "name": "Medjool Dates",
       "packageSize": "5 Kg  A (Premium Quality)",
       "image": "https://www.khejurbd.net/images/allProduct/medjool%20dates.webp",
@@ -45,16 +45,16 @@
       "stock": "available"
   },
   {
-      "_id": "642c155b2c4774f05c36ee7a",
+      "_id": "6",
       "name": "Safawi Kalmi Dates",
-      "packageSize": "3 Kg B (Premium Quality)",
+      "packageSize": "3 Kg B (Standard Quality)",
       "image": "https://www.khejurbd.net/images/allProduct/safawi%20dates.webp",
       "category": "dates",
       "price": 2700,
       "stock": "available"
   },
   {
-      "_id": "642c155b2c4774f05c36ee7b",
+      "_id": "7",
       "name": "Safawi Kalmi Dates",
       "packageSize": "3 Kg  A (Premium Quality)",
       "image": "https://www.khejurbd.net/images/allProduct/safawi%20dates.webp",
@@ -63,7 +63,7 @@
       "stock": "available"
   },
   {
-      "_id": "642c155b2c4774f05c36ee8c",
+      "_id": "8",
       "name": "Almonds",
       "packageSize": "0.5 Kg pack available",
       "image": "https://www.khejurbd.net/images/allProduct/almonds.webp",
@@ -72,7 +72,7 @@
       "stock": "available"
   },
   {
-      "_id": "642c155b2c4774f05c36ee8d",
+      "_id": "9",
       "name": "Almonds",
       "packageSize": "1 Kg pack available",
       "image": "https://www.khejurbd.net/images/allProduct/almonds.webp",
@@ -81,7 +81,7 @@
       "stock": "available"
   },
   {
-      "_id": "642c155b2c4774f05c36ee94",
+      "_id": "10",
       "name": "Cashews",
       "packageSize": "0.5 Kg pack available",
       "image": "https://www.khejurbd.net/images/allProduct/cashews.webp",
@@ -90,7 +90,7 @@
       "stock": "available"
   },
   {
-      "_id": "642c155b2c4774f05c36ee95",
+      "_id": "11",
       "name": "Cashews",
       "packageSize": "1 Kg pack available",
       "image": "https://www.khejurbd.net/images/allProduct/cashews.webp",
@@ -99,7 +99,7 @@
       "stock": "available"
   },
   {
-      "_id": "642c155b2c4774f05c36ee9e",
+      "_id": "12",
       "name": "Chia Seeds",
       "packageSize": " 1 Kg pack available",
       "image": "https://www.khejurbd.net/images/allProduct/chia%20seeds.webp",
@@ -108,7 +108,7 @@
       "stock": "available"
   },
   {
-      "_id": "642c155b2c4774f05c36ee9f",
+      "_id": "13",
       "name": "Chia Seeds",
       "packageSize": "1 Kg pack available",
       "image": "https://www.khejurbd.net/images/allProduct/chia%20seeds.webp",
@@ -117,7 +117,7 @@
       "stock": "available"
   },
   {
-      "_id": "642c155b2c4774f05c36eea6",
+      "_id": "14",
       "name": "Peanuts",
       "packageSize": "0.5 Kg pack available",
       "image": "https://www.khejurbd.net/images/allProduct/peanuts.webp",
@@ -126,7 +126,7 @@
       "stock": "available"
   },
   {
-      "_id": "642c155b2c4774f05c36eea7",
+      "_id": "15",
       "name": "Peanuts",
       "packageSize": "1 Kg pack available",
       "image": "https://www.khejurbd.net/images/allProduct/peanuts.webp",
@@ -135,7 +135,7 @@
       "stock": "available"
   },
   {
-      "_id": "642c155b2c4774f05c36eeaf",
+      "_id": "16",
       "name": "Pistachios",
       "packageSize": "0.5 Kg pack available",
       "image": "https://www.khejurbd.net/images/allProduct/Pistachio.webp",
@@ -144,7 +144,7 @@
       "stock": "available"
   },
   {
-      "_id": "642c155b2c4774f05c36eeag",
+      "_id": "17",
       "name": "Pistachios",
       "packageSize": "1 Kg pack available",
       "image": "https://www.khejurbd.net/images/allProduct/Pistachio.webp",
@@ -153,7 +153,7 @@
       "stock": "available"
   },
   {
-      "_id": "642c155b2c4774f05c36ee89",
+      "_id": "18",
       "name": "Pumpkin Seeds",
       "packageSize": "0.5 Kg, 1 Kg pack available",
       "image": "https://www.khejurbd.net/images/allProduct/pumpkin%20seed.webp",
@@ -162,7 +162,7 @@
       "stock": "available"
   },
   {
-      "_id": "642c155b2c4774f05c36ee88",
+      "_id": "19",
       "name": "Pumpkin Seeds",
       "packageSize": "0.5 Kg pack available",
       "image": "https://www.khejurbd.net/images/allProduct/pumpkin%20seed.webp",
@@ -171,25 +171,25 @@
       "stock": "available"
   },
   {
-      "_id": "642c155b2c4774f05c36ee8a",
+      "_id": "20",
       "name": "Sunflower Seeds",
       "packageSize": "1 Kg pack available",
       "image": "https://www.khejurbd.net/images/allProduct/sunflowerSeeds.webp",
       "category": "seeds",
-      "price": "900-1000",
+      "price": 950,
       "stock": "available"
   },
   {
-    "_id": "642c155b2c4774f05c36ee8b",
+    "_id": "21",
     "name": "Walnuts",
     "packageSize": "0.5 Kg pack available",
     "image": "https://www.khejurbd.net/images/allProduct/walnut.webp",
     "category": "peanuts",
-    "price": "600-700",
+    "price": 650,
     "stock": "available"
 },
 {
-    "_id": "642c155b2c4774f05c36eeba",
+    "_id": "22",
     "name": "Ajwa Dates",
     "packageSize": "3 Kg & 5 Kg Box available",
     "image": "https://www.khejurbd.net/images/allProduct/ajwa%20dates.webp",
@@ -198,7 +198,7 @@
     "stock": "available"
 },
 {
-    "_id": "642c155b2c4774f05c36ef7c",
+    "_id": "23",
     "name": "Mariyam Dates",
     "packageSize": "3 Kg & 5 Kg Box available",
     "image": "https://www.khejurbd.net/images/allProduct/mabroom%20dates.webp",
@@ -207,7 +207,7 @@
     "stock": "available"
 },
 {
-    "_id": "642c155b2c4774f05c36ed94",
+    "_id": "24",
     "name": "Cashews",
     "packageSize": "0.5 Kg, 1 Kg pack available",
     "image": "https://www.khejurbd.net/images/allProduct/cashews.webp",
@@ -216,7 +216,7 @@
     "stock": "available"
 },
 {
-    "_id": "642c155b2c4774f05c36re9e",
+    "_id": "25",
     "name": "Chia Seeds",
     "packageSize": "0.5 Kg, 1 Kg pack available",
     "image": "https://www.khejurbd.net/images/allProduct/chia%20seeds.webp",
