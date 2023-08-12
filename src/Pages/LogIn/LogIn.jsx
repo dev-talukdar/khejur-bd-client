@@ -79,7 +79,7 @@ const LogIn = () => {
                             </div>
 
                             <div className="px-4 pb-2 pt-4">
-                                <button disabled={disabled} className='btn btn-outline btn-warning btn-wide' type="submit">SIGN IN</button>
+                                <button disabled={disabled} className='btn  btn-warning btn-wide' type="submit">SIGN IN</button>
                             </div>
 
                             <div className="p-4 text-center right-0 left-0 flex justify-center space-x-4 mt-16 lg:hidden ">
