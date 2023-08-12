@@ -1,4 +1,5 @@
  
+import { Link } from "react-router-dom";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";  
 import useProduct from "../../../hooks/useProduct";
 import ProductItem from "../../Shared/productItem/productItem";
@@ -26,7 +27,11 @@ const PopularProduct = () => {
                 }
             </div>
 
-            <button className="btn btn-outline border-0 border-b-4 mt-4">View Product</button>
+            <Link className="flex justify-center items-center mt-10" to={'/shop/dates'}>
+                <abbr >
+                     ORDER NOW 
+                </abbr>
+            </Link>
            
             
         </section>

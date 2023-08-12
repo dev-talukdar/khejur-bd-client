@@ -2,6 +2,7 @@ abbr {
     --color: #ca8a04;
     font-family: inherit;
     display: inline-block;
+    text-align: center;
     width: 8em;
     height: 2.6em;
     line-height: 2.5em;
@@ -17,7 +18,7 @@ abbr {
     color: var(--color);
    }
    
-  abbr:before {
+   abbr:before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -27,22 +28,22 @@ abbr {
     border-radius: 50%;
    }
    
-  abbr:hover {
+   abbr:hover {
     color: #fff;
    }
    
-  abbr:before {
+   abbr:before {
     top: 100%;
     left: 100%;
     transition: all .7s;
    }
    
-  abbr:hover:before {
+   abbr:hover:before {
     top: -30px;
     left: -30px;
    }
    
-  abbr:active:before {
-    background: #3a0ca3;
+   abbr:active:before {
+    background: #ca8a04;
     transition: background 0s;
    }

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import './NavigationBar.css'
 
 
 const NavigationBar = () => {
@@ -28,7 +29,7 @@ const NavigationBar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn btn-outline btnw btn-sm">Login</a>
+                    <Link to='/login'><abbr className="btn-nav">Login</abbr></Link>
                 </div>
             </div>
         </>

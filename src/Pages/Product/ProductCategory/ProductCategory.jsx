@@ -18,10 +18,10 @@ const ProductCategory = ({ items, title, img }) => {
             </div>
 
 
-            <Link to={`/shop/${title}`}>
-                <button className="flex justify-center items-center mt-10 mb-10 mx-auto">
-                    <span>ORDER NOW</span>
-                </button>
+            <Link className="flex justify-center items-center mt-10" to={`/shop/${title}`}>
+                <abbr >
+                     ORDER NOW 
+                </abbr>
             </Link>
 
         </div>

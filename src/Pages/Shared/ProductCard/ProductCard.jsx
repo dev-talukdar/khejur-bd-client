@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './ProductCard.css'
 
 const ProductCard = ({item}) => {
@@ -22,10 +23,7 @@ const ProductCard = ({item}) => {
         </div>
         {/*  <!-- Action base sized basic button --> */}
         <div className="flex justify-end p-6 pt-0">
-          <button className="inline-flex h-10 w-full items-center justify-center py-6 gap-2 whitespace-nowrap rounded bg-yellow-600 px-5 text-sm font-medium tracking-wide text-white
-              focus-visible:outline-none disabled:cursor-not-allowed disabled:border-emerald-300 disabled:bg-emerald-300 disabled:shadow-none">
-            <span>ADD TO CART</span>
-          </button>
+          <Link className="flex justify-center items-center mx-auto mt-10"><abbr > See Details</abbr></Link>
         </div>
       </div>
       {/*<!-- End E-commerce card --> */}
