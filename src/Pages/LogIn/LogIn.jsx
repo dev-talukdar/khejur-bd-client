@@ -91,7 +91,7 @@ const LogIn = () => {
                                 <button disabled={disabled} className='btn  btn-warning btn-wide' type="submit">SIGN IN</button>
                             </div>
 
-                            <p className='' style={{ color: "#e07626" }}>New to this website ? <span className='text-blue-700 underline'><Link to='/registration'>Register Now</Link></span></p>
+                            <p className='' style={{ color: "#e07626" }}>New to this website ? <span className='text-blue-700 hover:underline'><Link to='/registration'>Create an account</Link></span></p>
 
                             <div className="p-4 text-center right-0 left-0 flex justify-center space-x-4 mt-16 lg:hidden ">
                                 <SocialMedia></SocialMedia>
