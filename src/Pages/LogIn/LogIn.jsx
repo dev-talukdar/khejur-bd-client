@@ -2,11 +2,14 @@ import { Link } from 'react-router-dom';
 import SocialMedia from '../../components/SocialMedia/SocialMedia';
 import './LogIn.css'
 import { loadCaptchaEnginge, LoadCanvasTemplate, validateCaptcha } from 'react-simple-captcha';
-import { useEffect, useRef, useState } from 'react';
+import { useContext, useEffect, useRef, useState } from 'react';
+import { AuthContext } from '../../Providers/AuthProvider/AuthProvider';
 
 const LogIn = () => {
     const captchaRef = useRef(null);
     const [disabled, setDisabled] = useState(true);
+
+    const {signInUser} = useContext(AuthContext)
 
     const handleLogin = event => {
         event.preventDefault();
@@ -14,6 +17,12 @@ const LogIn = () => {
         const email = form.email.value;
         const password = form.password.value;
         console.log(email, password)
+
+        signInUser(email, password)
+        .then(result => {
+            const user = result.user;
+            console.log(user)
+        })
 
     }
 
@@ -81,6 +90,8 @@ const LogIn = () => {
                             <div className="px-4 pb-2 pt-4">
                                 <button disabled={disabled} className='btn  btn-warning btn-wide' type="submit">SIGN IN</button>
                             </div>
+
+                            <p className='' style={{ color: "#e07626" }}>New to this website ? <span className='text-blue-700 underline'><Link to='/registration'>Register Now</Link></span></p>
 
                             <div className="p-4 text-center right-0 left-0 flex justify-center space-x-4 mt-16 lg:hidden ">
                                 <SocialMedia></SocialMedia>

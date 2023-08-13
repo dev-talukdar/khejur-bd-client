@@ -11,7 +11,7 @@ const NavigationBar = () => {
     </>
     return (
         <>
-            <div className="navbar fixed z-10 max-w-screen-xl bg-gradient-to-r from-rose-50 via-rose-100 to-rose-50">
+            <div className="navbar fixed z-10 max-w-screen-xl bg-gradient-to-r from-rose-50 via-rose-100 to-rose-50" style={{  color: "#e07626" }}>
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden ">

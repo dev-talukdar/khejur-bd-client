@@ -33,13 +33,13 @@ const Shop = () => {
 
 <Tabs defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
             <TabList className='container mx-auto mt-6'>
-                <div className="flex rounded-md shadow-md">
-                    <Tab className="flex-grow p-2 text-gray-700 bg-white transition  cursor-pointer uppercase font-medium flex justify-center hover:bg-yellow-600 focus:bg-yellow-600 focus:text-white focus:outline-none hover:text-white ">Dates</Tab>
-                    <Tab className="flex-grow p-2 text-gray-700 bg-white  border-l-2  transition  cursor-pointer uppercase font-medium flex justify-center hover:bg-yellow-600 focus:bg-yellow-600 focus:text-white focus:outline-none hover:text-white ">Peanuts</Tab>
-                    <Tab className="flex-grow p-2 text-gray-700 bg-white  border-l-2  transition  cursor-pointer uppercase font-medium flex justify-center hover:bg-yellow-600 focus:bg-yellow-600 focus:text-white focus:outline-none hover:text-white ">Seeds</Tab>
-                    <Tab className="flex-grow p-2 text-gray-700 bg-white  border-l-2  transition  cursor-pointer uppercase font-medium flex justify-center hover:bg-yellow-600 focus:bg-yellow-600 focus:text-white focus:outline-none hover:text-white ">Organic Goods</Tab>
-                    <Tab className="flex-grow p-2 text-gray-700 bg-white  border-l-2  transition  cursor-pointer uppercase font-medium flex justify-center hover:bg-yellow-600 focus:bg-yellow-600 focus:text-white focus:outline-none hover:text-white ">Oils</Tab>
-                    <Tab className="flex-grow p-2 text-gray-700 bg-white  border-l-2  transition  cursor-pointer uppercase font-medium flex justify-center hover:bg-yellow-600 focus:bg-yellow-600 focus:text-white focus:outline-none hover:text-white ">Spices & Herbs</Tab>
+                <div className="flex rounded-md shadow-md" style={{  color: "#e07626" }}>
+                    <Tab className="flex-grow p-2  bg-white  transition  cursor-pointer uppercase font-medium flex justify-center hover:bg-yellow-600 focus:bg-yellow-600 focus:text-white focus:outline-none hover:text-white ">Dates</Tab>
+                    <Tab className="flex-grow p-2  bg-white  border-l-2  transition  cursor-pointer uppercase font-medium flex justify-center hover:bg-yellow-600 focus:bg-yellow-600 focus:text-white focus:outline-none hover:text-white ">Peanuts</Tab>
+                    <Tab className="flex-grow p-2  bg-white  border-l-2  transition  cursor-pointer uppercase font-medium flex justify-center hover:bg-yellow-600 focus:bg-yellow-600 focus:text-white focus:outline-none hover:text-white ">Seeds</Tab>
+                    <Tab className="flex-grow p-2  bg-white  border-l-2  transition  cursor-pointer uppercase font-medium flex justify-center hover:bg-yellow-600 focus:bg-yellow-600 focus:text-white focus:outline-none hover:text-white ">Organic Goods</Tab>
+                    <Tab className="flex-grow p-2  bg-white  border-l-2  transition  cursor-pointer uppercase font-medium flex justify-center hover:bg-yellow-600 focus:bg-yellow-600 focus:text-white focus:outline-none hover:text-white ">Oils</Tab>
+                    <Tab className="flex-grow p-2  bg-white  border-l-2  transition  cursor-pointer uppercase font-medium flex justify-center hover:bg-yellow-600 focus:bg-yellow-600 focus:text-white focus:outline-none hover:text-white ">Spices & Herbs</Tab>
                 </div>
             </TabList>
             <TabPanel><ShopTab items={dates}></ShopTab></TabPanel>
